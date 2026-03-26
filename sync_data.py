@@ -2,7 +2,6 @@ import os
 import json
 from woocommerce import API
 
-# Setup WooCommerce API
 wcapi = API(
     url=os.environ.get("WC_URL"),
     consumer_key=os.environ.get("WC_KEY"),
@@ -15,27 +14,24 @@ def fetch_products():
     products = []
     page = 1
     while True:
-        # Fetching 100 products at a time
-        r = wcapi.get("products", params={"per_page": 100, "page": page}).json()
-        if not r: break
+        r = wcapi.get("products", params={"per_page": 100, "page": page, "status": "publish"}).json()
+        if not r or 'message' in r: break
         
         for p in r:
-            # Sirf Variable products uthao kyunki printing mein variations hi hoti hain
-            if p['type'] == 'variable':
-                variations = wcapi.get(f"products/{p['id']}/variations").json()
-                var_list = []
-                for v in variations:
-                    var_list.append({
-                        "attributes": v['attributes'],
-                        "price": v['display_regular_price'] if 'display_regular_price' in v else v['price'],
-                        "url": p['permalink']
-                    })
-                
-                products.append({
-                    "name": p['name'],
-                    "id": p['id'],
-                    "variations": var_list
-                })
+            # Extracting Add-ons from Meta Data
+            addons = []
+            meta = p.get('meta_data', [])
+            for m in meta:
+                if m.get('key') == '_product_addons':
+                    addons = m.get('value', [])
+            
+            products.append({
+                "name": p['name'],
+                "id": p['id'],
+                "base_price": p.get('price') or "0",
+                "addons": addons, # This contains Quantity, Side, Lamination etc.
+                "url": p['permalink']
+            })
         page += 1
     
     with open("catalog.json", "w") as f:
