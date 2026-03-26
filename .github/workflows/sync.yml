@@ -1,0 +1,30 @@
+name: Daily Price Sync
+on:
+  schedule:
+    - cron: '0 0 * * *' # Roz raat 12 baje
+  workflow_dispatch: # Manual trigger ke liye
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install woocommerce
+      - name: Run Sync Script
+        env:
+          WC_URL: ${{ secrets.WC_URL }}
+          WC_KEY: ${{ secrets.WC_KEY }}
+          WC_SECRET: ${{ secrets.WC_SECRET }}
+        run: python sync_data.py
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'Bot'
+          git config --global user.email 'bot@github.com'
+          git add catalog.json
+          git commit -m "Update Catalog" || exit 0
+          git push
