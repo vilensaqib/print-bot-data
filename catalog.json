@@ -1,1 +1,1603 @@
-[]
+[
+  {
+    "name": "Custom Foil Stickers Delhi: #1 Exclusive Gold & Silver Labels",
+    "id": 3753,
+    "base_price": "399",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772898942",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "100",
+            "price": "399",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "759",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "1819",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "3299",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom size stickers? WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772898943",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "3.8 X 3.8 cm",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "5 X 5 cm",
+            "price": "1",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "7.6 X 7.6 cm",
+            "price": "2",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "5 X 7.6 cm",
+            "price": "3",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Cutting",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom shape-cut stickers! WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772898944",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Full Cut",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Half Cut",
+            "price": "0.40",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "Shape Cut",
+            "price": "1.25",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/custom-foil-stickers-delhi/"
+  },
+  {
+    "name": "#1 Certificate Printing Service in Delhi | Premium Custom Awards",
+    "id": 3781,
+    "base_price": "349",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772896648",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "5",
+            "price": "349",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "10",
+            "price": "319",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "20",
+            "price": "499",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "50",
+            "price": "849",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "100",
+            "price": "1599",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772896649",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "A4",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "29.2 X 22.2 cm",
+            "price": "5",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "31.7 X 23.4 cm",
+            "price": "8",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "A3",
+            "price": "10",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Paper",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772896650",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Standard",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Texture",
+            "price": "5",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Metallic",
+            "price": "8",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Orientation",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772896651",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Landscape",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Portrait",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/certificate-printing-service-in-delhi/"
+  },
+  {
+    "name": "Custom Shape Sticker Printing Delhi: #1 Best Quality Paper Labels",
+    "id": 3761,
+    "base_price": "299",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772812813",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "100",
+            "price": "299",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "559",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "1249",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "2249",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom size stickers? WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772812812",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "3.8 X 3.8 cm",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "5 X 5 cm",
+            "price": "0.50",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "7.6 X 7.6 cm",
+            "price": "1",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "5 X 7.6 cm",
+            "price": "2",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Gum Type",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772812814",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Normal",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Heavy Adhesive",
+            "price": "0.20",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Lamination",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772812815",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "None",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Gloss",
+            "price": "0.35",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "Matte",
+            "price": "0.55",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "Velvet",
+            "price": "0.75",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Cutting",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom shape-cut stickers! WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 4,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772812816",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Full Cut",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Blade Cut",
+            "price": "0.40",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "Shape Cut",
+            "price": "1.25",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/custom-shape-sticker-printing-delhi-%e0%a5%83/"
+  },
+  {
+    "name": "Custom Vinyl Stickers Delhi: 1 Premium Branding Label Service",
+    "id": 3766,
+    "base_price": "549",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772728560",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "100",
+            "price": "549",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "1069",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "2449",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "4499",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom size stickers? WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772807439",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "3.8 X 3.8 cm",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "5 X 5 cm",
+            "price": "0.50",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "7.6 X 7.6 cm",
+            "price": "1",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "5 X 7.6 cm",
+            "price": "2",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Type",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772728559",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "White Vinyl",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Clear Vinyl",
+            "price": "0.30",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Cutting",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom shape-cut stickers! WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772805741",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Full Cut",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Half Cut",
+            "price": "0.40",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "Shape Cut",
+            "price": "1.25",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/custom-vinyl-stickers-delhi-printing/"
+  },
+  {
+    "name": "Premium Letterhead Printing in Delhi | #1 Exclusive Quality",
+    "id": 3718,
+    "base_price": "349",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1770049954",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "20",
+            "price": "349",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "50",
+            "price": "749",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "100",
+            "price": "999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "1699",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "300",
+            "price": "2399",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "3899",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "7199",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Paper",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1770049955",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Standard",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Duo Paper",
+            "price": "0.60",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "Excel Bond",
+            "price": "0.90",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/premium-letterhead-printing-in-delhi/"
+  },
+  {
+    "name": "Matte Finish Business Cards: Premium Quality, Best Price in Delhi",
+    "id": 3685,
+    "base_price": "449",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769629629",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "200",
+            "price": "499",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "300",
+            "price": "549",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "400",
+            "price": "689",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "789",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "1359",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "2000",
+            "price": "2499",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "5000",
+            "price": "5899",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Side",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769629630",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Single Side",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Double Side",
+            "price": "0.35",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Side",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769629631",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Single Side",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Double Side",
+            "price": "0.6",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Corner",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769629632",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Standard Corner",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Round Corner",
+            "price": "0.22",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/matte-finish-business-cards-delhi/"
+  },
+  {
+    "name": "Product Catalogue Website Package: #1 Solution for Business",
+    "id": 3420,
+    "base_price": "8999",
+    "addons": [
+      {
+        "name": "Select Plan",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1768857078",
+        "min": 0,
+        "max": 0,
+        "default": 1,
+        "options": [
+          {
+            "label": "Startup Plan",
+            "price": "8999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Growth Plan",
+            "price": "18999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Enterprise",
+            "price": "34999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/product-catalogue-website-package/"
+  },
+  {
+    "name": "Gloss Visiting Card Printer in Delhi: #1 Best & Fast Service",
+    "id": 3329,
+    "base_price": "399",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1768669808",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "200",
+            "price": "399",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "300",
+            "price": "549",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "400",
+            "price": "689",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "779",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "1359",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "2000",
+            "price": "2549",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "5000",
+            "price": "5999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Side",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769197327",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Single",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Double",
+            "price": "0.35",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Lamination",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769258192",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Single Side",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Double Side",
+            "price": "0.5",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Corner",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769629694",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Standard",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Round",
+            "price": "0.22",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/gloss-visiting-card-printer-in-delhi/"
+  },
+  {
+    "name": "Logo Design Service in Delhi - Professional Brand Identity",
+    "id": 3297,
+    "base_price": "999",
+    "addons": [
+      {
+        "name": "Select Plan",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1768499114",
+        "min": 0,
+        "max": 0,
+        "default": 1,
+        "options": [
+          {
+            "label": "Essential Identity",
+            "price": "999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Professional Branding",
+            "price": "1499",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Corporate Authority",
+            "price": "4999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/best-logo-design-service-in-delhi/"
+  },
+  {
+    "name": "Business Card Printing in Delhi | Standard Visiting Cards",
+    "id": 3284,
+    "base_price": "349",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1768480474",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "200",
+            "price": "349",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "300",
+            "price": "499",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "400",
+            "price": "619",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "699",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "1199",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "2000",
+            "price": "2199",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "5000",
+            "price": "4449",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Side",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769192633",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Single",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Double",
+            "price": "0.35",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Corner",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1769630858",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Standard",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Round",
+            "price": "0.22",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/business-card-printing-in-delhi/"
+  },
+  {
+    "name": "Business Website Design Delhi: Professional & Affordable Packages",
+    "id": 3234,
+    "base_price": "5999",
+    "addons": [
+      {
+        "name": "Select Plan",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1768409556",
+        "min": 0,
+        "max": 0,
+        "default": 1,
+        "options": [
+          {
+            "label": "Startup Plan",
+            "price": "5999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Growth Plan",
+            "price": "14999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Premium Plan",
+            "price": "29999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/business-website-design-delhi-package/"
+  }
+]
