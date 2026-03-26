@@ -1,16 +1,19 @@
 name: Daily Price Sync
 on:
   schedule:
-    - cron: '0 0 * * *' # Roz raat 12 baje
-  workflow_dispatch: # Manual trigger ke liye
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions: # Explicitly granting write access
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4 # Updated to v4
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5 # Updated to v5
         with:
           python-version: '3.9'
       - name: Install dependencies
@@ -23,8 +26,8 @@ jobs:
         run: python sync_data.py
       - name: Commit and Push
         run: |
-          git config --global user.name 'Bot'
-          git config --global user.email 'bot@github.com'
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add catalog.json
-          git commit -m "Update Catalog" || exit 0
+          git commit -m "Update Catalog [skip ci]" || exit 0
           git push
