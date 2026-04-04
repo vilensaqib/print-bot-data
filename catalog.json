@@ -785,9 +785,235 @@
     "url": "https://printeldeziner.com/product/custom-vinyl-stickers-delhi-printing/"
   },
   {
+    "name": "Custom Label Printing Delhi: #1 Best Die-Cut Stickers for Brands",
+    "id": 3748,
+    "base_price": "299",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772901718",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "50",
+            "price": "299",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "100",
+            "price": "569",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "1099",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "2669",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "4999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "2000",
+            "price": "9999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom size stickers? WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1772901719",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "5 X 5 cm",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "7.6 X 5.7 cm",
+            "price": "0.30",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "8.8 X 5.0 cm",
+            "price": "0.50",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "10 X 5 cm",
+            "price": "0.70",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "16.5 X 5.7 cm",
+            "price": "0.90",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "18.4 X 5.0",
+            "price": "1",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "21.5 X 5.0",
+            "price": "1.20",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Lamination",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1775217819",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "None",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Gloss",
+            "price": "0.60",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "Matte",
+            "price": "0.80",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Cutting",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom shape-cut stickers! WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1775076820",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Full Cut",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Half Cut",
+            "price": "0.60",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/custom-label-printing-delhi/"
+  },
+  {
     "name": "Premium Letterhead Printing in Delhi | #1 Exclusive Quality",
     "id": 3718,
-    "base_price": "349",
+    "base_price": "299",
     "addons": [
       {
         "name": "Quantity",
@@ -812,49 +1038,49 @@
         "options": [
           {
             "label": "20",
-            "price": "349",
+            "price": "299",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "50",
-            "price": "749",
+            "price": "549",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "100",
-            "price": "999",
+            "price": "749",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "200",
-            "price": "1699",
+            "price": "1199",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "300",
-            "price": "2399",
+            "price": "1679",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "500",
-            "price": "3899",
+            "price": "2129",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "1000",
-            "price": "7199",
+            "price": "3249",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
@@ -891,14 +1117,14 @@
           },
           {
             "label": "Duo Paper",
-            "price": "0.60",
+            "price": "0.35",
             "image": "",
             "price_type": "quantity_based",
             "visibility": 1
           },
           {
             "label": "Excel Bond",
-            "price": "0.90",
+            "price": "0.50",
             "image": "",
             "price_type": "percentage_based",
             "visibility": 1
