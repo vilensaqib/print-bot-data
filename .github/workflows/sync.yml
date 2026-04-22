@@ -1,33 +1,53 @@
 name: Daily Price Sync
+
 on:
   schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # Rozana raat 12 baje chalega
+  workflow_dispatch: # Manual run karne ke liye
 
-permissions: # Explicitly granting write access
+permissions:
   contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Future-proofing: Node.js 20 warnings se bachne ke liye
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
+    
     steps:
-      - uses: actions/checkout@v4 # Updated to v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
       - name: Set up Python
-        uses: actions/setup-python@v5 # Updated to v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
+          cache: 'pip' # Isse baar-baar install fast hoga
+
       - name: Install dependencies
-        run: pip install woocommerce
+        run: |
+          python -m pip install --upgrade pip
+          pip install woocommerce
+
       - name: Run Sync Script
         env:
           WC_URL: ${{ secrets.WC_URL }}
           WC_KEY: ${{ secrets.WC_KEY }}
           WC_SECRET: ${{ secrets.WC_SECRET }}
         run: python sync_data.py
-      - name: Commit and Push
+
+      - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add catalog.json
-          git commit -m "Update Catalog [skip ci]" || exit 0
-          git push
+          
+          # Sirf catalog.json tabhi add karega agar file exist karti hai
+          if [ -f catalog.json ]; then
+            git add catalog.json
+            # Agar koi change nahi hai toh exit 0 (failure nahi dikhayega)
+            git commit -m "Update Catalog [skip ci]" || echo "No changes to commit"
+            git push origin main || echo "Nothing to push"
+          else
+            echo "catalog.json not found, skipping commit."
+          fi
