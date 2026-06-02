@@ -2,7 +2,8 @@ name: Daily Price Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Rozana raat 12 baje chalega
+    # Runs at 00:00 UTC every Monday and Thursday (Twice a week)
+    - cron: '0 0 * * 1,4' 
   workflow_dispatch: # Manual run karne ke liye
 
 permissions:
@@ -12,7 +13,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Future-proofing: Node.js 20 warnings se bachne ke liye
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true 
     
     steps:
@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.9'
-          cache: 'pip' # Isse baar-baar install fast hoga
+          # Removed cache: 'pip' to prevent the missing requirements.txt error
 
       - name: Install dependencies
         run: |
