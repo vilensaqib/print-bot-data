@@ -46,7 +46,7 @@ jobs:
             git add catalog.json
             
             # --allow-empty lagane se Git bina kisi change ke bhi commit bana dega
-            git commit --allow-empty -m "Daily Sync: Update Catalog [skip ci]"
+            git commit --allow-empty -m "Daily Sync: Update Catalog"
             git push origin main
           else
             echo "catalog.json not found, skipping commit."
