@@ -44,7 +44,12 @@ def fetch_products():
             })
         page += 1
     
+    # Isse pehle ka baki saara code bilkul same rahega...
+
     print(f"Total products fetched: {len(products)}")
     with open("catalog.json", "w") as f:
         json.dump(products, f, indent=2)
     print("catalog.json successfully written.")
+
+# Seedhe function call karein (if __name__ hatakar)
+fetch_products()
