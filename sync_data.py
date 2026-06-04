@@ -10,15 +10,25 @@ wcapi = API(
     timeout=30
 )
 
+# sync_data.py ke andar modification:
 def fetch_products():
     products = []
     page = 1
     while True:
-        r = wcapi.get("products", params={"per_page": 100, "page": page, "status": "publish"}).json()
-        if not r or 'message' in r: break
+        print(f"Fetching page {page}...")
+        response = wcapi.get("products", params={"per_page": 100, "page": page, "status": "publish"})
         
+        # Check for API errors safely
+        if response.status_code != 200:
+            print(f"API Error on page {page}: {response.text}")
+            break
+            
+        r = response.json()
+        if not r or 'message' in r or len(r) == 0: 
+            break
+        
+        print(f"Found {len(r)} products on page {page}.")
         for p in r:
-            # Extracting Add-ons from Meta Data
             addons = []
             meta = p.get('meta_data', [])
             for m in meta:
@@ -29,13 +39,12 @@ def fetch_products():
                 "name": p['name'],
                 "id": p['id'],
                 "base_price": p.get('price') or "0",
-                "addons": addons, # This contains Quantity, Side, Lamination etc.
+                "addons": addons,
                 "url": p['permalink']
             })
         page += 1
     
+    print(f"Total products fetched: {len(products)}")
     with open("catalog.json", "w") as f:
         json.dump(products, f, indent=2)
-
-if __name__ == "__main__":
-    fetch_products()
+    print("catalog.json successfully written.")
