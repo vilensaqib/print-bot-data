@@ -42,12 +42,12 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           
-          # Sirf catalog.json tabhi add karega agar file exist karti hai
           if [ -f catalog.json ]; then
             git add catalog.json
-            # Agar koi change nahi hai toh exit 0 (failure nahi dikhayega)
-            git commit -m "Update Catalog [skip ci]" || echo "No changes to commit"
-            git push origin main || echo "Nothing to push"
+            
+            # --allow-empty lagane se Git bina kisi change ke bhi commit bana dega
+            git commit --allow-empty -m "Daily Sync: Update Catalog [skip ci]"
+            git push origin main
           else
             echo "catalog.json not found, skipping commit."
           fi
