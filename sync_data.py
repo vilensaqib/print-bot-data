@@ -1,21 +1,31 @@
 import os
 import json
+import sys
 from woocommerce import API
 
-# Nayi keys direct code mein inject kar di hain testing ke liye
-URL = "https://printeldeziner.com"
-KEY = "ck_a15c85fd40eb0e6209e55a0dde853daebd136376"
-SECRET = "cs_370fcb99788dd6c659bc654cb29fd6d085368394"
+# Securely getting credentials from GitHub Secrets
+raw_url = os.environ.get("WC_URL", "").strip()
 
-print(f"Connecting to WooCommerce API at: {URL}")
+# URL formatting fix: trailing slash hatane ke liye
+if raw_url.endswith("/"):
+    raw_url = raw_url[:-1]
 
-wcapi = API(
-    url=URL,
-    consumer_key=KEY,
-    consumer_secret=SECRET,
-    version="wc/v3",
-    timeout=30
-)
+KEY = os.environ.get("WC_KEY")
+SECRET = os.environ.get("WC_SECRET")
+
+print(f"Connecting to WooCommerce API at: {raw_url}")
+
+try:
+    wcapi = API(
+        url=raw_url,
+        consumer_key=KEY,
+        consumer_secret=SECRET,
+        version="wc/v3",
+        timeout=30
+    )
+except Exception as e:
+    print(f"Initialization Error: {e}")
+    sys.exit(1)
 
 def fetch_products():
     products = []
@@ -23,38 +33,50 @@ def fetch_products():
     
     while True:
         print(f"Fetching page {page}...")
-        response = wcapi.get("products", params={"per_page": 100, "page": page, "status": "publish"})
-        print(f"Page {page} Status Code: {response.status_code}")
-        
-        if response.status_code != 200:
-            print(f"API Error: {response.text}")
-            break
+        try:
+            response = wcapi.get("products", params={"per_page": 100, "page": page, "status": "publish"})
+            print(f"Page {page} Status Code: {response.status_code}")
             
-        r = response.json()
-        if not r or len(r) == 0: 
-            break
-        
-        print(f"Found {len(r)} products on page {page}.")
-        for p in r:
-            addons = []
-            meta = p.get('meta_data', [])
-            for m in meta:
-                if m.get('key') == '_product_addons':
-                    addons = m.get('value', [])
+            if response.status_code != 200:
+                print(f"API Error on page {page}: {response.text}")
+                break
+                
+            r = response.json()
+            if not r or 'message' in r or len(r) == 0: 
+                print(f"No more products or end of pages reached at page {page}.")
+                break
             
-            products.append({
-                "name": p['name'],
-                "id": p['id'],
-                "base_price": p.get('price') or "0",
-                "addons": addons,
-                "url": p['permalink']
-            })
-        page += 1
+            print(f"Found {len(r)} products on page {page}.")
+            for p in r:
+                addons = []
+                meta = p.get('meta_data', [])
+                for m in meta:
+                    if m.get('key') == '_product_addons':
+                        addons = m.get('value', [])
+                
+                products.append({
+                    "name": p['name'],
+                    "id": p['id'],
+                    "base_price": p.get('price') or "0",
+                    "addons": addons,
+                    "url": p['permalink']
+                })
+            page += 1
+            
+        except Exception as err:
+            print(f"Network or request crash on page {page}: {err}")
+            break
     
     print(f"Total products successfully parsed: {len(products)}")
     
+    # 0 products aane par empty file save hone se rokne ke liye
+    if len(products) == 0:
+        print("WARNING: 0 products fetched. Not writing catalog.json to prevent breaking the blog.")
+        return
+
     with open("catalog.json", "w") as f:
         json.dump(products, f, indent=2)
-    print("catalog.json successfully written.")
+    print("catalog.json successfully written and updated.")
 
+# Trigger function directly
 fetch_products()
