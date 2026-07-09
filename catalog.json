@@ -34,42 +34,35 @@
           },
           {
             "label": "10",
-            "price": "599",
+            "price": "449",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "20",
-            "price": "949",
+            "price": "849",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "50",
-            "price": "2449",
+            "price": "1949",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "100",
-            "price": "3449",
+            "price": "2899",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "500",
-            "price": "13999",
-            "image": "",
-            "price_type": "flat_fee",
-            "visibility": 1
-          },
-          {
-            "label": "1000",
-            "price": "17999",
+            "price": "12199",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
@@ -106,21 +99,21 @@
           },
           {
             "label": "A5 (14.8 X 21.0 cm)",
-            "price": "20",
+            "price": "3",
             "image": "",
             "price_type": "percentage_based",
             "visibility": 1
           },
           {
             "label": "A4 (21.0 X 29.7 cm)",
-            "price": "30",
+            "price": "5",
             "image": "",
             "price_type": "percentage_based",
             "visibility": 1
           },
           {
             "label": "A3 (29.7 X 42.0 cm)",
-            "price": "50",
+            "price": "10",
             "image": "",
             "price_type": "percentage_based",
             "visibility": 1
@@ -157,7 +150,7 @@
           },
           {
             "label": "Double Side",
-            "price": "10",
+            "price": "5",
             "image": "",
             "price_type": "percentage_based",
             "visibility": 1
