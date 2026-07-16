@@ -1,5 +1,203 @@
 [
   {
+    "name": "Custom Flyers",
+    "id": 3805,
+    "base_price": "349",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1783975297",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "50",
+            "price": "349",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "100",
+            "price": "649",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "1099",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "2399",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "3999",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom size Pamphlet? WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1783975298",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "DL (22 X 10 cm)",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "A6 (11 X 15 cm)",
+            "price": "0.50",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "A5 (15 X 21 cm)",
+            "price": "1",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "A4 (21 X 30 cm)",
+            "price": "1.75",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Side",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1783975299",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Single Side",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Back Side",
+            "price": "3",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Paper",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1783975300",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "90 GSM",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "130 GSM",
+            "price": "0.50",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "170 GSM",
+            "price": "0.50",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/flyer-printing-services-in-delhi/"
+  },
+  {
     "name": "Menu Cards",
     "id": 3987,
     "base_price": "349",
@@ -34,35 +232,35 @@
           },
           {
             "label": "10",
-            "price": "449",
+            "price": "429",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "20",
-            "price": "849",
+            "price": "799",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "50",
-            "price": "1949",
+            "price": "1849",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "100",
-            "price": "2899",
+            "price": "2599",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "500",
-            "price": "12199",
+            "price": "11999",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
@@ -150,7 +348,7 @@
           },
           {
             "label": "Double Side",
-            "price": "5",
+            "price": "3",
             "image": "",
             "price_type": "percentage_based",
             "visibility": 1
@@ -187,9 +385,9 @@
           },
           {
             "label": "Pouch Laminate",
-            "price": "20",
+            "price": "10",
             "image": "",
-            "price_type": "quantity_based",
+            "price_type": "percentage_based",
             "visibility": 1
           }
         ]
@@ -4395,7 +4593,7 @@
         ]
       }
     ],
-    "url": "https://printeldeziner.com/product/custom-shape-sticker-printing-delhi-%e0%a5%83/"
+    "url": "https://printeldeziner.com/product/custom-shape-sticker-printing-delhi/"
   },
   {
     "name": "Custom Vinyl Stickers",
