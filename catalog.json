@@ -1,5 +1,282 @@
 [
   {
+    "name": "Brochures",
+    "id": 3797,
+    "base_price": "349",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784924482",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "10",
+            "price": "349",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "20",
+            "price": "649",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "50",
+            "price": "1499",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "100",
+            "price": "2499",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "4599",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "11249",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "1000",
+            "price": "10499",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784924483",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "DL (22 X 10 cm)",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "A5 (15 X 21 cm)",
+            "price": "3",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "A4 (21 X 30 cm)",
+            "price": "5",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Lamination",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784924486",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "None",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Gloss",
+            "price": "1",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "Matt",
+            "price": "1.5",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "Velvet",
+            "price": "2",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Fold",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 3,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784924484",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "Bi-Fold",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "Tri-Fold",
+            "price": "0.65",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Material",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 4,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784924485",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "130 GSM",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "170 GSM",
+            "price": "0.35",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "200 GSM",
+            "price": "0.45",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "250 GSM",
+            "price": "0.55",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "300 GSM",
+            "price": "0.65",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          },
+          {
+            "label": "350 GSM",
+            "price": "0.75",
+            "image": "",
+            "price_type": "percentage_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/1-brochure-printing-service-in-delhi/"
+  },
+  {
     "name": "Custom Writing Notepad",
     "id": 4068,
     "base_price": "350",
