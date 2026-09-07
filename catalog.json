@@ -1931,7 +1931,7 @@
     "url": "https://printeldeziner.com/product/sunboard-printing-in-delhi-ncr/"
   },
   {
-    "name": "Hut-Style Window Gift Box - Large",
+    "name": "Hut Style Window Gift Box - Large",
     "id": 4087,
     "base_price": "349",
     "addons": [
@@ -1965,35 +1965,35 @@
           },
           {
             "label": "50",
-            "price": "1499",
+            "price": "1599",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "100",
-            "price": "2399",
+            "price": "2999",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "200",
-            "price": "4699",
+            "price": "5599",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "500",
-            "price": "10999",
+            "price": "12999",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "1000",
-            "price": "20999",
+            "price": "23499",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
@@ -2126,35 +2126,35 @@
           },
           {
             "label": "50",
-            "price": "749",
+            "price": "1399",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "100",
-            "price": "1149",
+            "price": "2299",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "200",
-            "price": "2249",
+            "price": "3799",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "500",
-            "price": "5549",
+            "price": "7249",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "1000",
-            "price": "10899",
+            "price": "11499",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
@@ -2281,7 +2281,7 @@
         "type": "multiple_choice",
         "display": "select",
         "position": 0,
-        "required": 0,
+        "required": 1,
         "restrictions": 0,
         "restrictions_type": "any_text",
         "adjust_price": 0,
@@ -2294,42 +2294,35 @@
         "options": [
           {
             "label": "10",
-            "price": "399",
+            "price": "349",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "50",
-            "price": "1749",
+            "price": "1549",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "100",
-            "price": "2599",
+            "price": "2799",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "200",
-            "price": "4799",
+            "price": "5199",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
           },
           {
             "label": "500",
-            "price": "10999",
-            "image": "",
-            "price_type": "flat_fee",
-            "visibility": 1
-          },
-          {
-            "label": "1000",
-            "price": "19999",
+            "price": "12000",
             "image": "",
             "price_type": "flat_fee",
             "visibility": 1
