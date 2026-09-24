@@ -1,5 +1,173 @@
 [
   {
+    "name": "Posters",
+    "id": 3981,
+    "base_price": "299",
+    "addons": [
+      {
+        "name": "Quantity",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 0,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784299521",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "10",
+            "price": "349",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "25",
+            "price": "599",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "50",
+            "price": "899",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "100",
+            "price": "1299",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "200",
+            "price": "2199",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "500",
+            "price": "4499",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Size",
+        "title_format": "label",
+        "description_enable": 1,
+        "description": "Custom size posters? WhatsApp or Email us now!",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 1,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784299522",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "A5",
+            "price": "",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "A4",
+            "price": "2",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "A3",
+            "price": "8",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "A3+ (33 X 48 cm)",
+            "price": "12",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      },
+      {
+        "name": "Material",
+        "title_format": "label",
+        "description_enable": 0,
+        "description": "",
+        "placeholder_enable": 0,
+        "placeholder": "",
+        "type": "multiple_choice",
+        "display": "select",
+        "position": 2,
+        "required": 1,
+        "restrictions": 0,
+        "restrictions_type": "any_text",
+        "adjust_price": 0,
+        "price_type": "flat_fee",
+        "price": "",
+        "id": "1784299523",
+        "min": 0,
+        "max": 0,
+        "default": 0,
+        "options": [
+          {
+            "label": "170 GSM",
+            "price": "",
+            "image": "",
+            "price_type": "flat_fee",
+            "visibility": 1
+          },
+          {
+            "label": "220 GSM",
+            "price": "2",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          },
+          {
+            "label": "300 GSM",
+            "price": "4",
+            "image": "",
+            "price_type": "quantity_based",
+            "visibility": 1
+          }
+        ]
+      }
+    ],
+    "url": "https://printeldeziner.com/product/poster-printing-delhi/"
+  },
+  {
     "name": "Custom Pre-Inked Stamps Delhi",
     "id": 4702,
     "base_price": "449",
